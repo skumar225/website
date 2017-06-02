@@ -7,8 +7,16 @@ body, html {
   float: left;
 }
 
-h2, h3 {
+h2, h3, h4 {
       font-family: 'Lora', serif !important;
+}
+
+h2 {
+  font-size: 36px !important;
+}
+
+h3 {
+  font-size: 20px !important;
 }
 
 section {
@@ -106,16 +114,79 @@ p {
     padding-top: 57.5%;
 }
 
+/* Intro */
+.intro-title {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+.intro:nth-child(2) {
+    margin-left: -30px;
+}
+.hello-heading {
+  font-size: 55px;
+}
+.intro-title span {
+  white-space: pre;
+}
+.highlight {
+    display: inline;
+    color: #fff; 
+    padding: 0.25em;
+  }
+
+
+h1.title {
+  font-size: 3em;
+}
+
+
 /* Skills */
 
 #skills {
   text-align: center;
 }
 
+/* Work */
+
+#work img {
+  height: 300px;
+}
+
 /* Contact */
 
+#contact {
+  background-color: #36454f;
+}
+
+#contact h2 {
+  text-align: left;
+}
+
+#contact h2, #contact p, #contact a {
+  color: #fff;
+}
+
+#contact h4 {
+  text-align: left;
+  color: #fff;
+}
+
 #contact p {
-    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 0 15px 0;
+}
+
+#contact a {
+  background-color: black;
+  padding: 15px;
+  font-size: 16px;
+}
+
+#contact a:hover {
+  text-decoration: none;
 }
 
 .contact-icon {

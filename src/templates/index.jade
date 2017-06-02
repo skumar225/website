@@ -1,0 +1,66 @@
+extends ./layout.jade
+block content
+    .hero-container
+      .hero
+        .hero-image
+    section#about.hideme
+        .container
+            .row
+              .col-md-8.col-lg-offset-2.text-center
+                h2.section-heading About
+                |                     
+                hr.light
+              .col-md-4.col-md-offset-2                    
+                p.text-faded
+                  | I'm a front-end web developer who's been in the field for two years. I specialize in building dynamic, responsive, semantic UI and integration of data to the front end user face.
+              .col-md-4.col-md-offset-1
+                p.text-faded
+                  | Originally from Dallas, TX, I've lived and studied in Hong Kong, Cape Town, South Africa, Seoul, South Korea, Mumbai, India, and Northampton, MA before calling San Francisco my home. 
+                p
+                  | I love all things music - from vinyl records to live concerts, and play guitar and piano when I can. I also enjoy running, skiing, biking, drawing, reading, and a cup of tea.      
+    section#skills
+        .container
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading Skills
+                |                     
+                hr.light
+                
+              .col-md-4.col-md-offset-2                     
+                h3 Languages
+                p HTML, CSS, SASS, Javascript 
+
+                h3 Frameworks/Libraries
+                p jQuery, ReactJS, Bootstrap, Node.js, Express
+              .col-md-4         
+                h3 Templating
+                p Underscore.js, Handlebars.js, Jade, Jinja
+
+                h3 Database Tools
+                p SQL, PostgresSQL, MongoDB          
+              .col-md-8.col-md-offset-2
+                h3 Other
+                p SEO Optimization, Mobile Responsive Design, Git, Photoshop, Illustrator, Sketch                  
+    include work.jade
+    section#contact
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading Contact
+                |                     
+                hr.primary
+                |                     
+                p
+                  | Get in touch.
+              |                 
+              .col-lg-4.col-lg-offset-2.text-center
+                img.contact-icon(src='static/img/linkedin.png')
+                |                     
+                p 
+                  a(href='https://www.linkedin.com/in/kumarshilpa/') Connect.
+              |                 
+              .col-md-4.text-center
+                img.contact-icon(src="static/img/email.png")
+                |                     
+                p
+                  a(href='mailto:skumar225@gmail.com') Email.

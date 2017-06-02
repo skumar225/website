@@ -1,0 +1,176 @@
+body, html {
+  height: 100%;
+}
+
+.logo {
+  height: 45px;
+  float: left;
+}
+
+h2, h3 {
+      font-family: 'Lora', serif !important;
+}
+
+section {
+  padding: 30px;
+}
+
+.hideme {
+  opacity:0;
+}
+
+p {
+  font-family: 'Istok Web', sans-serif;
+}
+
+.head-title {
+  border-bottom: 1px solid #eee
+}
+
+.head-title a:hover {
+      text-decoration: none;
+}
+
+.head-title p {
+      font-family: 'Lora', serif !important;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      color: #000;
+      letter-spacing: 1px;
+}
+
+.navbar {
+  padding: 5px;
+}
+
+.navbar-nav {
+      font-family: 'Istok Web', sans-serif;
+      text-transform: uppercase;
+      color: #afafaf;
+}
+
+.navbar-nav a {
+  color: #afafaf !important;
+  background-color: #fff !important;
+}
+
+.navbar-inverse {
+  background-color: #fff !important;
+  border: none !important;
+}
+
+.navbar-toggle.collapsed {
+  background-color: black;
+}
+
+.cl-effect-3 a {
+	padding: 8px 0;
+}
+
+.cl-effect-3 a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: rgba(0,0,0,0.1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.hero-container { background-color: #fff; }
+ 
+.hero {
+    position: relative;
+    overflow: hidden;
+    background: url("../img/hero_image.jpg") no-repeat scroll;
+    background-size: 100% auto;
+    max-height: 420px;
+}
+ 
+.hero .hero-image {
+    padding-top: 57.5%;
+}
+
+/* Skills */
+
+#skills {
+  text-align: center;
+}
+
+/* Contact */
+
+#contact p {
+    padding: 20px;
+}
+
+.contact-icon {
+    height: 75px;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 25px;
+  width:auto;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
+/* Work Hover Feature */
+.item:hover .item-overlay.left {
+  left: 0;
+}
+.item-overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+  /* fix text transition issue for .left and .right but need to overwrite left and right properties in .right */
+  width: 100%; 
+  
+  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+.item-overlay.left {
+  left: 100%;
+}
+.item {
+  position: relative;
+  float: left;
+  margin: 2%;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+.navbar-nav {
+    float:none !important;
+    margin:0 auto !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.navbar-nav > li {
+    display: inline-block !important;
+    float:none !important;
+}
+}

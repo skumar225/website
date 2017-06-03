@@ -1,14 +1,13 @@
 {
 	"Blog One": {
-      	      "title": "Blog One",
-      	      "description": "Blah One Blah Blah"
+      	      "title": "Let's Give Them Something to Talk About",
+      	      "description": "6..2.17 --- Blogging is relatively new for me. That is, unless you count the Xanga blog posts I wrote back in middle school which documented how much homework we had for the day, complaints about not having my own mobile flip phone, and letting fellow classmates know that vanilla ice cream is the cure to the end to a long hard school day.",
+				"blog": "But let's not digress. I'm struggling to figure out what I should focus on writing about. I could go on about the magic of Jade templating, but the docs speak for itself. I re-visited  object oriented programming in JS today, knowing when to use the prototypes, constructor functions, and uses of objects. A lot of it was review but I'm looking forward to working on a project that makes use of these concepts, I haven't had a much opportunity in my professional work to do so. "
+
 	 },
 	 "Blog Two": {
-      	       "title": "Blog Two",
-      	       "description": "Blah Second Blah Blah"
-	 },
-	 "Blog Three": {
-      	       "title": "Blog Three",
-      	       "description": "Blah Three Blah Blah"
+      	       "title": "Welkom!",
+      	       "description": "5.31.17 --- 'Welkom' means 'Welcome'. Forgive me for pointing out the obvious. After living in Cape Town, South Africa in the post-aparthied era (1999 - 2002), I had to find some way to make use of the Afrikaans I had learned while living there. While on the topic, I should shout out a 'Molo!' since I should be accounting for all South African languages. That was Xhosa for 'Hello', and probably one of the most fun languages to learn, with all the tongue clicking",
+				"blog": "That was a major digress from welcoming you to my newly built website, designed and built by me in Express. It's an opportunity where I get to add in a blog and ramble on and on. Express is pretty easy to learn. All you need to do is npm the necessities, set up your routes, and tada! You have an Express application. I am also using Jade templating for the first time and wish I discovered this templating tool a long time ago. IT'S SO CLEAN AND EASY TO EDIT. WHY HASN'T ANYONE TALKED ABOUT JADE BEFORE?!? Well, Jade, I think this is the beginining of a beautiful friendship."
 	 }
 }

@@ -16,23 +16,23 @@ nav.navbar.navbar-inverse.navbar-fixed-top.cl-effect-3
         |         
         #navbar.navbar-collapse.collapse
           ul.nav.navbar-nav
-            li.active
-              a(href='#about') 
-                span About
-            li
-              a(href='#skills') 
-                span Skills
-            |              
-            li
-              a(href='#work') 
-                span Work
-            |             
-            li
-              a(href='#contact') 
-                span Contact
-            | 
             li
               a(href='/blog') 
                 span Blog
-            |             
+            if path === '/'
+              li.active
+                a(href='#about') 
+                  span About
+              li
+                a(href='#skills') 
+                  span Skills
+              |              
+              li
+                a(href='#work') 
+                  span Work
+              |             
+              li
+                a(href='#contact') 
+                  span Contact
+              | 
         // /.nav-collapse

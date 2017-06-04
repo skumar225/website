@@ -2,7 +2,7 @@
 	"Blog One": {
       	      "title": "Let's Give Them Something to Talk About",
       	      "description": "6..2.17 --- Blogging is relatively new for me. That is, unless you count the Xanga blog posts I wrote back in middle school which documented how much homework we had for the day, complaints about not having my own mobile flip phone, and letting fellow classmates know that vanilla ice cream is the cure to the end to a long hard school day.",
-				"blog": "But let's not digress. I'm struggling to figure out what I should focus on writing about. I could go on about the magic of Jade templating, but the docs speak for itself. I re-visited  object oriented programming in JS today, knowing when to use the prototypes, constructor functions, and uses of objects. A lot of it was review but I'm looking forward to working on a project that makes use of these concepts, I haven't had a much opportunity in my professional work to do so. "
+				"blog": "But let's not digress. I could go on about the magic of Jade templating, but the docs speak for itself. I re-visited  object oriented programming in JS today, knowing when to use the prototypes, constructor functions, and uses of objects. A lot of it was review but I'm looking forward to working on a project that makes use of these concepts, I haven't had a much opportunity in my professional work to do so. "
 
 	 },
 	 "Blog Two": {

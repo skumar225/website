@@ -19,6 +19,8 @@ app.set('views', __dirname + '/templates');
 
 app.get('/', function(req, res){
 	//res.send("<h1>sup yall</h1>");
+	var path = req.path;
+	res.locals.path = path;
 	res.render('index');
 });
 

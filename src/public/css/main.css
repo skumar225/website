@@ -350,3 +350,7 @@ h1.title {
 .blog-title a:hover {
   text-decoration: none;
 }
+
+.blog-content {
+  padding-bottom: 100px;
+}

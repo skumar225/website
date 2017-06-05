@@ -1,6 +1,10 @@
 {
   "name": "express-basics",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.3.1",
+    "npm": "3.10.3"
+  },
   "description": "This repo features an express app to serve as demo in the Express Basics course on Treehouse.",
   "main": "index.js",
   "scripts": {

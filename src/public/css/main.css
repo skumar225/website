@@ -199,6 +199,19 @@ h1.title {
   transform: scale(1.3);
 }
 
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: x-large;
+
+  }
+  .highlight {
+    font-size: 45px;
+        padding-top: 20px;
+
+  }
+
+}
+
 /* Skills */
 
 #skills {

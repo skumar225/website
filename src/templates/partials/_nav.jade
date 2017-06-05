@@ -1,0 +1,38 @@
+.head-title
+nav.navbar.navbar-inverse.navbar-fixed-top.cl-effect-3
+      .container
+        a(href='/') 
+          img.logo(src="static/img/sklogo.jpg")
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+            span.sr-only Toggle navigation
+            |             
+            span.icon-bar
+            |             
+            span.icon-bar
+            |             
+            span.icon-bar
+          |           
+        |         
+        #navbar.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/blog') 
+                span Blog
+            if path === '/'
+              li.active
+                a(href='#about') 
+                  span About
+              li
+                a(href='#skills') 
+                  span Skills
+              |              
+              li
+                a(href='#work') 
+                  span Work
+              |             
+              li
+                a(href='#contact') 
+                  span Contact
+              | 
+        // /.nav-collapse

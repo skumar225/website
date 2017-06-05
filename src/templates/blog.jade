@@ -1,0 +1,19 @@
+extends ./layout.jade
+
+block content
+  .container.blog-title
+    .row
+      .col-lg-8.col-lg-offset-2.text-center
+        h2.section-heading Blog
+        |                     
+        hr.light
+        a.highlight.button_sliding_bg(href="/") Back to Main Site
+  .container.blog-content
+    .row
+      .col-md-8.col-lg-offset-2
+        each post in posts
+          h1.post-title #{post.title}
+          p.text-faded #{post.description}
+          p.text-faded #{post.blog}
+       //   a(href='/blog/' + post.title) Read More
+  

@@ -1,0 +1,18 @@
+extends ./layout.jade
+block content
+    .hero-container
+      .hero
+        .hero-image
+    section#intro 
+      .container
+        .row
+          .col-md-8.col-lg-offset-2.text-center
+            .intro
+              h1.intro-title.hello-heading.grow
+                span.highlight(style='background: #000') Hello.
+              h1.intro-title.grow
+                span.highlight(style='background: #000') My name is Shilpa Kumar.
+    include about.jade
+    include skills.jade                  
+    include work.jade
+    include contact.jade

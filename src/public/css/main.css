@@ -1,0 +1,369 @@
+/* Intro Animation */
+.intro-fade {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Main CSS */
+
+body, html {
+  height: 100%;
+}
+
+.logo {
+  height: 45px;
+  float: left;
+}
+
+h1, h2, h3, h4 {
+      font-family: 'Lora', serif !important;
+}
+
+h2 {
+  font-size: 36px !important;
+}
+
+h3 {
+  font-size: 20px !important;
+}
+
+hr {
+      border-top: 1px solid #9d9d9d !important;
+}
+
+section {
+  padding: 30px;
+}
+
+.hideme {
+  opacity:0;
+}
+
+p {
+  font-family: 'Istok Web', sans-serif;
+}
+
+.head-title {
+  border-bottom: 1px solid #eee
+}
+
+.head-title a:hover {
+      text-decoration: none;
+}
+
+.head-title p {
+      font-family: 'Lora', serif !important;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      color: #000;
+      letter-spacing: 1px;
+}
+
+/* Navigation */
+
+.navbar {
+  padding: 5px;
+}
+
+.navbar-nav {
+      font-family: 'Istok Web', sans-serif;
+      text-transform: uppercase;
+      color: #afafaf;
+}
+
+.navbar-nav a {
+  color: #afafaf !important;
+  background-color: #fff !important;
+}
+
+.navbar-inverse {
+  background-color: #fff !important;
+  border: none !important;
+}
+
+.navbar-toggle.collapsed {
+  background-color: black;
+}
+
+.cl-effect-3 a {
+	padding: 8px 0;
+}
+
+.cl-effect-3 a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #9d9d9d;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.hero-container { background-color: #fff; }
+ 
+.hero {
+    position: relative;
+    overflow: hidden;
+    background: url("../img/hero_image.jpg") no-repeat scroll;
+    background-size: 100% auto;
+    max-height: 420px;
+}
+ 
+.hero .hero-image {
+    padding-top: 57.5%;
+}
+
+/* Intro */
+.intro-title {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+.intro:nth-child(2) {
+    margin-left: -30px;
+}
+.hello-heading {
+  font-size: 55px;
+}
+.intro-title span {
+  white-space: pre;
+}
+.highlight {
+    display: inline;
+    color: #fff; 
+    padding: 0.25em;
+  }
+
+
+h1.title {
+  font-size: 3em;
+}
+
+.grow:hover
+{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: x-large;
+
+  }
+  .highlight {
+    font-size: 45px;
+        padding-top: 20px;
+
+  }
+
+}
+
+/* Skills */
+
+#skills {
+  text-align: center;
+}
+
+/* Work */
+
+#work img {
+    width: 540px;
+  }
+
+#work a {
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#work a:hover {
+    text-decoration: none;
+}
+
+/* Contact */
+
+#contact {
+  background-color: #36454f;
+}
+
+#contact h2 {
+  text-align: left;
+}
+
+#contact h2, #contact p, #contact a {
+  color: #fff;
+}
+
+#contact h4 {
+  text-align: left;
+  color: #fff;
+}
+
+#contact p {
+    text-align: left;
+    font-size: 16px;
+    padding: 5px 0 0 0;
+}
+
+#contact a {
+  background-color: black;
+  padding: 15px;
+  font-size: 16px;
+}
+
+#contact a:hover {
+  text-decoration: none;
+}
+
+.contact-icon {
+    height: 75px;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 25px;
+  width:auto;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
+.button_sliding_bg {
+    color: #FFF;
+    background: #9d9d9d;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FFF;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+.button_sliding_bg:hover {
+    box-shadow: inset 0 100px 0 0 #9d9d9d;
+}
+
+/* Work Hover Feature */
+.item:hover .item-overlay.left {
+  left: 0;
+  padding: 25px;
+}
+.item-overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+  /* fix text transition issue for .left and .right but need to overwrite left and right properties in .right */
+  width: 100%; 
+  
+  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+.item-overlay.left {
+  left: 100%;
+}
+.item {
+  position: relative;
+  float: left;
+  margin: 2%;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+.navbar-nav {
+    float:none !important;
+    margin:0 auto !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.navbar-nav > li {
+    display: inline-block !important;
+    float:none !important;
+}
+}
+
+/* Blog */
+.blog-title {
+    margin-top: 120px;
+}
+.post-title {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.blog-title a {
+  font-family: 'Lora', serif !important;
+  color: #FFF;
+  background-color: #000;
+  padding: 15px;
+  font-size: 16px;
+}
+.blog-title a:hover {
+  text-decoration: none;
+}
+
+.blog-content {
+  padding-bottom: 100px;
+}

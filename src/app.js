@@ -10,6 +10,7 @@ var postsLists = Object.keys(posts).map(function(value){
 );
 
 var app = express();
+var server = require('http').Server(app);
 
 //Defines middleware- handles request made by client before arriving at route
 app.use('/static', express.static(__dirname + '/public'));
@@ -38,6 +39,6 @@ app.get('/blog/:title?', function(req, res) {
 	}
 });
 
-app.listen(process.env.PORT || 3000, function() {
+server.listen(process.env.PORT || 3000, function() {
 	console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });

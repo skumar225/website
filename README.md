@@ -1,11 +1,8 @@
 #Express Basics Demo Site
 
-This repo features an express app to serve as demo in the Express Basics course on Treehouse.
+This repo features an express app to serve my personal website.
 
 ## How to use this repo
-To follow along with the Treehouse course, checkout the branch with the associated video.  The video for a given stage will indicate which branch to checkout.
-
-**To start with the very first video:**
 ```
 git clone <this-repo>
 cd <this-repo>
